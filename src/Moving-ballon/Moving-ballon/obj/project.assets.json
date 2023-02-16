@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\arman\\Documents\\GitHub\\UDLAP\\LIS3092-Laboratorio-videojuegos\\Laboratorio\\Laboratorio 4\\Moving-ballon\\Moving-ballon\\Moving-ballon.csproj",
+      "projectUniqueName": "C:\\Users\\arman\\Documents\\GitHub\\LIS3092-class-assignments\\src\\Moving-ballon\\Moving-ballon\\Moving-ballon.csproj",
       "projectName": "Moving-ballon",
-      "projectPath": "C:\\Users\\arman\\Documents\\GitHub\\UDLAP\\LIS3092-Laboratorio-videojuegos\\Laboratorio\\Laboratorio 4\\Moving-ballon\\Moving-ballon\\Moving-ballon.csproj",
+      "projectPath": "C:\\Users\\arman\\Documents\\GitHub\\LIS3092-class-assignments\\src\\Moving-ballon\\Moving-ballon\\Moving-ballon.csproj",
       "packagesPath": "C:\\Users\\arman\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\arman\\Documents\\GitHub\\UDLAP\\LIS3092-Laboratorio-videojuegos\\Laboratorio\\Laboratorio 4\\Moving-ballon\\Moving-ballon\\obj\\",
+      "outputPath": "C:\\Users\\arman\\Documents\\GitHub\\LIS3092-class-assignments\\src\\Moving-ballon\\Moving-ballon\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\arman\\AppData\\Roaming\\NuGet\\NuGet.Config",
