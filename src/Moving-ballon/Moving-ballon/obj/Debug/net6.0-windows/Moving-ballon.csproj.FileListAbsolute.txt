@@ -1,0 +1,17 @@
+C:\Users\arman\Documents\GitHub\UDLAP\LIS3092-Laboratorio-videojuegos\Laboratorio\Laboratorio 4\Moving-ballon\Moving-ballon\bin\Debug\net6.0-windows\Moving-ballon.exe
+C:\Users\arman\Documents\GitHub\UDLAP\LIS3092-Laboratorio-videojuegos\Laboratorio\Laboratorio 4\Moving-ballon\Moving-ballon\bin\Debug\net6.0-windows\Moving-ballon.deps.json
+C:\Users\arman\Documents\GitHub\UDLAP\LIS3092-Laboratorio-videojuegos\Laboratorio\Laboratorio 4\Moving-ballon\Moving-ballon\bin\Debug\net6.0-windows\Moving-ballon.runtimeconfig.json
+C:\Users\arman\Documents\GitHub\UDLAP\LIS3092-Laboratorio-videojuegos\Laboratorio\Laboratorio 4\Moving-ballon\Moving-ballon\bin\Debug\net6.0-windows\Moving-ballon.dll
+C:\Users\arman\Documents\GitHub\UDLAP\LIS3092-Laboratorio-videojuegos\Laboratorio\Laboratorio 4\Moving-ballon\Moving-ballon\bin\Debug\net6.0-windows\Moving-ballon.pdb
+C:\Users\arman\Documents\GitHub\UDLAP\LIS3092-Laboratorio-videojuegos\Laboratorio\Laboratorio 4\Moving-ballon\Moving-ballon\obj\Debug\net6.0-windows\Moving-ballon.csproj.AssemblyReference.cache
+C:\Users\arman\Documents\GitHub\UDLAP\LIS3092-Laboratorio-videojuegos\Laboratorio\Laboratorio 4\Moving-ballon\Moving-ballon\obj\Debug\net6.0-windows\Moving_ballon.Form1.resources
+C:\Users\arman\Documents\GitHub\UDLAP\LIS3092-Laboratorio-videojuegos\Laboratorio\Laboratorio 4\Moving-ballon\Moving-ballon\obj\Debug\net6.0-windows\Moving-ballon.csproj.GenerateResource.cache
+C:\Users\arman\Documents\GitHub\UDLAP\LIS3092-Laboratorio-videojuegos\Laboratorio\Laboratorio 4\Moving-ballon\Moving-ballon\obj\Debug\net6.0-windows\Moving-ballon.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arman\Documents\GitHub\UDLAP\LIS3092-Laboratorio-videojuegos\Laboratorio\Laboratorio 4\Moving-ballon\Moving-ballon\obj\Debug\net6.0-windows\Moving-ballon.AssemblyInfoInputs.cache
+C:\Users\arman\Documents\GitHub\UDLAP\LIS3092-Laboratorio-videojuegos\Laboratorio\Laboratorio 4\Moving-ballon\Moving-ballon\obj\Debug\net6.0-windows\Moving-ballon.AssemblyInfo.cs
+C:\Users\arman\Documents\GitHub\UDLAP\LIS3092-Laboratorio-videojuegos\Laboratorio\Laboratorio 4\Moving-ballon\Moving-ballon\obj\Debug\net6.0-windows\Moving-ballon.csproj.CoreCompileInputs.cache
+C:\Users\arman\Documents\GitHub\UDLAP\LIS3092-Laboratorio-videojuegos\Laboratorio\Laboratorio 4\Moving-ballon\Moving-ballon\obj\Debug\net6.0-windows\Moving-ballon.dll
+C:\Users\arman\Documents\GitHub\UDLAP\LIS3092-Laboratorio-videojuegos\Laboratorio\Laboratorio 4\Moving-ballon\Moving-ballon\obj\Debug\net6.0-windows\refint\Moving-ballon.dll
+C:\Users\arman\Documents\GitHub\UDLAP\LIS3092-Laboratorio-videojuegos\Laboratorio\Laboratorio 4\Moving-ballon\Moving-ballon\obj\Debug\net6.0-windows\Moving-ballon.pdb
+C:\Users\arman\Documents\GitHub\UDLAP\LIS3092-Laboratorio-videojuegos\Laboratorio\Laboratorio 4\Moving-ballon\Moving-ballon\obj\Debug\net6.0-windows\Moving-ballon.genruntimeconfig.cache
+C:\Users\arman\Documents\GitHub\UDLAP\LIS3092-Laboratorio-videojuegos\Laboratorio\Laboratorio 4\Moving-ballon\Moving-ballon\obj\Debug\net6.0-windows\ref\Moving-ballon.dll
