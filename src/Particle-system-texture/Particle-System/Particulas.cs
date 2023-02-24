@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Drawing.Drawing2D;
+using System.Drawing.Imaging;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,6 +21,9 @@ namespace Particle_System
         public float diametro { get; set; }
         public Color color { get; set; }
 
+        // Agrega una propiedad para almacenar la imagen de la partícula
+        private Image imagenParticula;
+
         // Constructor de la clase Particulas
         public Particulas(float posX, float posY, float velX, float velY, float tiempoVida, float gravedad, float diametro, Color color)
         {
@@ -31,6 +35,8 @@ namespace Particle_System
             this.gravedad = gravedad;
             this.diametro = diametro;
             this.color = color;
+
+            
         }
 
         // Método para actualizar las propiedades de la partícula
@@ -42,20 +48,29 @@ namespace Particle_System
             velY += gravedad * deltaTime;
         }
 
+        private const int BrilloMaximo = 200;
+
         // Método para dibujar la partícula en la pantalla
         public void Dibujar(Graphics g)
         {
-            Bitmap imagen = Resources.star_min; // Reemplaza "miImagen" con el nombre de tu imagen de Resources.resx
-            TextureBrush brush = new TextureBrush(imagen);
-            brush.TranslateTransform(posX - diametro / 2, posY - diametro / 2);
-            brush.ScaleTransform(diametro / imagen.Width, diametro / imagen.Height);
-            Matrix matrizOpacidad = new Matrix();
-            matrizOpacidad.Scale(1, 1);
-            matrizOpacidad.Translate(0, 0);
-            matrizOpacidad.Multiply(new Matrix(1, 0, 0, 0.5f, 0, 0)); // Establece el nivel de opacidad del pincel
-            brush.MultiplyTransform(matrizOpacidad);
+            SolidBrush brush = new SolidBrush(Color.Yellow);
 
+            // Dibuja la partícula como un círculo amarillo
             g.FillEllipse(brush, posX - diametro / 2, posY - diametro / 2, diametro, diametro);
+
+            // Calcula el tamaño del brillo de fondo en función del radio de la partícula
+            int brillo = Math.Min(BrilloMaximo, (int)(BrilloMaximo * (50 / diametro)));
+
+            // Crea una máscara que sólo permita el brillo del fondo en las zonas cercanas a la partícula
+            int mascaraRadio = (int)(diametro / 2) + 10;
+            GraphicsPath mascara = new GraphicsPath();
+            mascara.AddEllipse(posX - mascaraRadio, posY - mascaraRadio, diametro + 20, diametro + 20);
+            Region mascaraRegion = new Region(mascara);
+
+            // Dibuja el brillo del fondo
+            Color backgroundColor = Color.FromArgb(brillo, Color.White);
+            Brush backgroundBrush = new SolidBrush(backgroundColor);
+            g.FillRegion(backgroundBrush, mascaraRegion);
         }
     }
 }
