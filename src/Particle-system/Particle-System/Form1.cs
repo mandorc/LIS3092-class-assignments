@@ -31,8 +31,8 @@ namespace Particle_System
                 float velY = (float)(random.NextDouble() * 100 - 50);
                 float tiempoVida = 1.0f;
                 float gravedad = 30.0f;
-                float diametro = 10.0f;
-                Color color = Color.OrangeRed;
+                float diametro = (float)(random.NextDouble() * 20 + 5); // Tamaño aleatorio entre 5 y 25
+                Color color = Color.FromArgb(random.Next(256), random.Next(256), random.Next(256)); // Color aleatorio
                 particulasFuego.Add(new Particulas(posX, posY, velX, velY, tiempoVida, gravedad, diametro, color));
             }
 

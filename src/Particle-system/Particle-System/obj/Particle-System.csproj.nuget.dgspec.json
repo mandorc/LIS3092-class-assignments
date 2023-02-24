@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\arman\\Documents\\GitHub\\LIS3092-class-assignments\\src\\Particle-System\\Particle-System\\Particle-System.csproj": {}
+    "C:\\Users\\arman\\Documents\\GitHub\\LIS3092-class-assignments\\src\\Particle-system\\Particle-System\\Particle-System.csproj": {}
   },
   "projects": {
-    "C:\\Users\\arman\\Documents\\GitHub\\LIS3092-class-assignments\\src\\Particle-System\\Particle-System\\Particle-System.csproj": {
+    "C:\\Users\\arman\\Documents\\GitHub\\LIS3092-class-assignments\\src\\Particle-system\\Particle-System\\Particle-System.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\arman\\Documents\\GitHub\\LIS3092-class-assignments\\src\\Particle-System\\Particle-System\\Particle-System.csproj",
+        "projectUniqueName": "C:\\Users\\arman\\Documents\\GitHub\\LIS3092-class-assignments\\src\\Particle-system\\Particle-System\\Particle-System.csproj",
         "projectName": "Particle-System",
-        "projectPath": "C:\\Users\\arman\\Documents\\GitHub\\LIS3092-class-assignments\\src\\Particle-System\\Particle-System\\Particle-System.csproj",
+        "projectPath": "C:\\Users\\arman\\Documents\\GitHub\\LIS3092-class-assignments\\src\\Particle-system\\Particle-System\\Particle-System.csproj",
         "packagesPath": "C:\\Users\\arman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\arman\\Documents\\GitHub\\LIS3092-class-assignments\\src\\Particle-System\\Particle-System\\obj\\",
+        "outputPath": "C:\\Users\\arman\\Documents\\GitHub\\LIS3092-class-assignments\\src\\Particle-system\\Particle-System\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\arman\\AppData\\Roaming\\NuGet\\NuGet.Config",
